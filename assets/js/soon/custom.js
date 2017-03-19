@@ -36,7 +36,7 @@ COMMING SOON PAGE
             hours.html('<h1>'+h+'</h1><p>Hour'+(h>1?'s':''),'</p>');
             s -= h*3600;
 
-            var m = Math.floor(s/60);
+            var m = Math.floor(s/60); 
             minutes.html('<h1>'+m+'</h1><p>Minute'+(m>1?'s':''),'</p>');
 
             s = Math.floor(s-m*60);
